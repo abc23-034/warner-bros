@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- <header>
+  <h1>Warner Bros. Movies</h1>
+  <nav>
+    <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#games & apps">Games & Apps</a></li>
+        <li><a href="#tvShows">Tv Shows</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+    </ul>
+  </nav>
+</header> -->
+
+<!-- Navbar  -->
+<header>
+    <div class="brand">
+        <img src="images/logo-1.png" alt="">
+        <a href="./index.html" class="logo">Warner Bros</a>
+    </div>
+    
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!-- menu  -->
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./movies.html" class="active">Movies</a></li>
+        <li><a href="./games&apps.html">Games & Apps</a></li>
+        <li><a href="./tvshows.html">Tv Shows</a></li>
+        <li><a href="./collections.html">Collections</a></li>
+        <li><a href="./feedback.html">Feedback</a></li>
+    </ul>
+   
+</header>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="image-filter"></div>
+        <img src="images/mov2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>FANTASTIC BEASTS:THE SECRETS OF DUMBLEDORE</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-filter"></div>
+        <img src="images/mov1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>THE BATMAN</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-filter"></div>
+        <img src="images/mov3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>THE MATRIX RESURRECTIONS</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+<main>
+  <section class="movies">
+    <!-- <h2>Action</h2> -->
+    <!-- Movies  -->
+    <div class="movies" id="movies">
+        <h2 class="heading">Action</h2>
+        <!-- Movies container  -->
+        <div class="movies-container">
+            <!-- box-1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act1.png" alt="">
+                </div>
+                <h3>Sentimelle</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-2  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/Act2 (2).png" alt="">
+                </div>
+                <h3>The Bourne Identity</h3>
+                <span>120 min </span>
+            </div>
+            <!-- box-3  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act10.png" alt="">
+                </div>
+                <h3>The Mother</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-4  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/ACT.png" alt="">
+                </div>
+                <h3>Die Hart</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-5  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act4 (2).png" alt="">
+                </div>
+                <h3>Die Hart</h3>
+                <span>120 min </span>
+            </div>
+            <!-- box-6  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/Act5 (2).png" alt="">
+                </div>
+                <h3>Gurdians Of The Galaxy</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-7  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act5.png" alt="">
+                </div>
+                <h3>Chupa</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-8  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act6.png" alt="">
+                </div>
+                <h3>The Covenant</h3>
+                <span>120 min</span>
+            </div>
+            <!-- box-9  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act7 (2).png" alt="">
+                </div>
+                <h3>One Ranger</h3>
+                <span>120 min </span>
+            </div>
+            <!-- box-10  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./images/act8.png" alt="">
+                </div>
+                <h3>SISU</h3>
+                <span>120 min </span>
+            </div>
+        </div>
+    </div>
+<!-- Movies  -->
+<div class="movies" id="movies">
+    <h2 class="heading">Adventure</h2>
+    <!-- Movies container  -->
+    <div class="movies-container">
+        <!-- box-1  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/adv.jpg.png" alt="">
+            </div>
+            <h3>A Garfield Christmas</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-2  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/adv2.jpg.png" alt="">
+            </div>
+            <h3>Dungeons & Dragons</h3>
+            <span>120 min</span>
+        </div>
+        <!-- box-3  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/adv3.jpg.png" alt="">
+            </div>
+            <h3>Peterpon & Wendy</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-4  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/adv4.jpg.png" alt="">
+            </div>
+            <h3>65</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-5  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd10.jpg.png" alt="">
+            </div>
+            <h3>Jungle</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-6  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd5.jpg.png" alt="">
+            </div>
+            <h3>Quantamania</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-7  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd6.jpg.png" alt="">
+            </div>
+            <h3>Shazam! Fury of The Gods</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-8  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd7.jpg.png" alt="">
+            </div>
+            <h3>Black Panther</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-9  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd8.jpg.png" alt="">
+            </div>
+            <h3>Monster of War</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-10  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/avd9.jpg.png" alt="">
+            </div>
+            <h3>Mad Heidi</h3>
+            <span>120 min </span>
+        </div>
+    </div>
+</div>
+<!-- Movies  -->
+<div class="movies" id="movies">
+    <h2 class="heading">Romance</h2>
+    <!-- Movies container  -->
+    <div class="movies-container">
+        <!-- box-1  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom.jpg.png" alt="">
+            </div>
+            <h3>Love, Game, Match</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-2  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom10.jpg.png" alt="">
+            </div>
+            <h3>Christmas Lovers</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-3  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom2.jpg.png" alt="">
+            </div>
+            <h3>Thorp</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-4  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom3.jpg.png" alt="">
+            </div>
+            <h3>Robots</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-5  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom4.jpg.png" alt="">
+            </div>
+            <h3>Life Upsidedown</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-6  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom5.jpg.png" alt="">
+            </div>
+            <h3>Space Oddity</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-7  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom6.jpg.png" alt="">
+            </div>
+            <h3>What Love Got To Do With It?</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-8  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom7.jpg.png" alt="">
+            </div>
+            <h3>Rye Love</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-9  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom8.jpg.png" alt="">
+            </div>
+            <h3>Love & Love Not</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-10  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/rom9.jpg.png" alt="">
+            </div>
+            <h3>Must Love Christmas</h3>
+            <span>120 min  </span>
+        </div>
+    </div>
+</div>
+<!-- Movies  -->
+<div class="movies" id="movies">
+    <h2 class="heading">Horror</h2>
+    <!-- Movies container  -->
+    <div class="movies-container">
+        <!-- box-1  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor.jpg.png" alt="">
+            </div>
+            <h3>The Mount:2</h3>
+            <span>120 min  </span>
+        </div>
+        <!-- box-2  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor10.jpg.png" alt="">
+            </div>
+            <h3>Raven's Hollow</h3>
+            <span>120 min  </span>
+        </div>
+        <!-- box-3  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor2.jpg.png" alt="">
+            </div>
+            <h3>Wolf Mountain</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-4  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor3.jpg.png" alt="">
+            </div>
+            <h3>Evil Dead Rise</h3>
+            <span>120 min</span>
+        </div>
+        <!-- box-5  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor4.jpg.png" alt="">
+            </div>
+            <h3>The Pope's Exorcist</h3>
+            <span>120 min  </span>
+        </div>
+        <!-- box-6  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor5.jpg.png" alt="">
+            </div>
+            <h3>Sick</h3>
+            <span>120 min  </span>
+        </div>
+        <!-- box-7  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor6.jpg.png" alt="">
+            </div>
+            <h3>Clock</h3>
+            <span>120 min  </span>
+        </div>
+        <!-- box-8  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor7.jpg.png" alt="">
+            </div>
+            <h3>Scream</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-9  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor8.jpg.png" alt="">
+            </div>
+            <h3>Kids & Aliens</h3>
+            <span>120 min </span>
+        </div>
+        <!-- box-10  -->
+        <div class="box">
+            <div class="box-img">
+                <img src="./images/hor9.jpg.png" alt="">
+            </div>
+            <h3>The Unheard</h3>
+            <span>120 min </span>
+        </div>
+    </div>
+</div>
+  </section>
+</main>
+
+<!-- footer  -->
+<section class="footer"> 
+    <a href="" class="logo">
+        <i class="bx bxs-movie"></i>Warner Bros
+    </a>
+    <div class="social">
+        <a href="https://www.facebook.com/warnerbrosent/"><i class='bx bxl-facebook'></i></a>
+        <a href="https://twitter.com/Warnerbros/"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/warnerbrosentertainment/"><i class='bx bxl-instagram'></i></a>
+    </div>
+</section>
+
+<!-- Copyright  -->
+<div class="copyright">
+    <p>&#169; 2024 Warner Bros. All Right Reserved</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
