@@ -42,18 +42,27 @@ header{
     /* background: var(--main-color); */
 }
 header.shadow{
-    background: var(--text-color);
+    background: var(--bg-color);
     box-shadow: 0 0 4px rgb(14 55 54/15%);
 }
 header.shadow .navbar a{
-    color: var(--bg-color);
+    color: var(--text-color);
 }
 header.shadow .logo{
-    color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navbar.active {
+    background: var(--bg-color);
+}
+
+.navbar.active a{
+    color: var(--text-color);
 }
 
 .brand{
     display: flex;
+    margin-right: 16px;
 }
 
 .brand img{
@@ -79,7 +88,7 @@ header.shadow .logo{
 }
 .navbar{
     display: flex;
-    column-gap: 5rem;
+    column-gap: 3rem;
 }
 .navbar li{
     position: relative;
@@ -317,7 +326,7 @@ section{
         color: var(--text-color);
     }
     header.shadow #menu-icon{
-        color: var(--bg-color);
+        color: var(--text-color);
     }
     .navbar{
         position: absolute;
@@ -387,4 +396,5 @@ section{
         grid-template-columns: repeat(auto-fit, minmax(140px, auto));
     }
 }
+
 
