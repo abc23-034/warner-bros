@@ -24,7 +24,7 @@
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <!-- menu  -->
-    <ul class="navbar">
+    <ul class="navbar" id="navbar">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./movies.html" class="active">Movies</a></li>
         <li><a href="./games&apps.html">Games & Apps</a></li>
@@ -47,7 +47,7 @@
         <img src=" ./mov2.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>FANTASTIC BEASTS:THE SECRETS OF DUMBLEDORE</h5>
-          <p>Own Now on Digital</p>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -55,7 +55,7 @@
         <img src=" ./mov1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>THE BATMAN</h5>
-          <p>Stream Now on Apple TV+</p>
+          <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -63,7 +63,7 @@
         <img src=" ./mov3.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>THE MATRIX RESURRECTIONS</h5>
-          <p>Coming To Apple TV+</p>
+          <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
     </div>
@@ -449,7 +449,22 @@
     <p>&#169; 2024 Warner Bros. All Right Reserved</p>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.getElementById('navbar');
+
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        header.classList.toggle('shadow', window.scrollY > 0);
+    })
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 
