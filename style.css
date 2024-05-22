@@ -176,10 +176,13 @@ section{
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
 .play{
+    z-index: 1;
     position: absolute;
-    right: 4rem;
-    bottom: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .play .bx{
     background: var(--text-color);
@@ -396,5 +399,4 @@ section{
         grid-template-columns: repeat(auto-fit, minmax(140px, auto));
     }
 }
-
 
